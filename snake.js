@@ -112,9 +112,9 @@ Snake.prototype.update = function()
 	return this.gameOver();
 	
 	this.snake.pop();
-	this.snake.unshift({
+	this.snake.unshift(
 		{x:x, y:y}
-	});
+	);
 }
 
 Snake.prototype.loop = function(){
